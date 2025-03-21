@@ -16,6 +16,5 @@ Pior caso: O(n²) (quando a lista está inversamente ordenada)
 Melhor caso: O(n²) (pois sempre precisa percorrer a lista)
 Implementação:
 
-<a href="https://github.com/RaniFerreira/Selection-Sort/blob/main/img/SelectionS.png">
 <img src="https://github.com/RaniFerreira/Selection-Sort/blob/main/img/SelectionS.png" alt="selction" align="center" width="300" height="250">
-</a>
+
