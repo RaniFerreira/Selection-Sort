@@ -14,7 +14,58 @@ O Selection Sort percorre o vetor repetidamente, encontrando o menor elemento e 
 Complexidade:
 Pior caso: O(n²) (quando a lista está inversamente ordenada)
 Melhor caso: O(n²) (pois sempre precisa percorrer a lista)
+
 Implementação:
 
-<img src="https://github.com/RaniFerreira/Selection-Sort/blob/main/img/SelectionS.png" alt="selction" align="center" width="300" height="250">
+<div style="display: flex; justify-content: center; gap: 10px;">
+    <img src="https://raw.githubusercontent.com/RaniFerreira/Selection-Sort/main/img/SelectionS.png" alt="Selection" width="300" height="250">
+    <img src="https://raw.githubusercontent.com/RaniFerreira/Selection-Sort/main/img/selection.png" alt="Selection" width="300" height="250">
+</div>
+
+Caso Teste:
+
+<img src="https://github.com/RaniFerreira/Selection-Sort/blob/main/img/CASOTESTE.png" alt="Selection" width="200" height="150">
+
+*⚡ Versão Otimizada*
+A versão otimizada melhora a legibilidade do código utilizando std::size() para calcular automaticamente o tamanho do array, e std::swap() diretamente, eliminando verificações extras.
+
+Complexidade:
+Melhor caso: Continua sendo O(n²), mas melhora a eficiência em algumas situações.
+Pior caso: O(n²), semelhante à versão original.
+
+Implementação:
+
+<div style="display: flex; justify-content: center; gap: 10px;">
+    <img src="https://github.com/RaniFerreira/Selection-Sort/blob/main/img/otimizado1.png" alt="Selection" width="300" height="250">
+    <img src="https://github.com/RaniFerreira/Selection-Sort/blob/main/img/otimizado2.png" alt="Selection" width="300" height="250">
+</div>
+
+Caso Teste 
+
+<img src="https://github.com/RaniFerreira/Selection-Sort/blob/main/img/testeoti.png" alt="Selection" width="200" height="150">
+
+*📊 Testes e Comparação de Desempenho*
+
+O código mede: 
+
+✅ O tempo de execução das duas versões para diferentes tamanhos de entrada. 
+
+✅ O número de comparações realizadas.
+
+📈 Resultados esperados:
+Listas ordenadas → Ambas as versões continuam O(n²), mas a otimizada reduz complexidade no código.
+
+🤝 Contribuições
+
+Sinta-se à vontade para abrir issues ou enviar pull requests com melhorias! 😊
+
+📌 Autor: Ranielly Ferreira 
+
+
+
+
+
+
+
+
 
